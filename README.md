@@ -9,9 +9,6 @@ Tools to (1) run quantum-noise budgeting with LIGO's GWINC module and optimize *
 
 ## What this repo does
 
-- **main.py**
-  Run main.py to run the parameter optimizer
-
 - **optimizers: `params_objective.py`**  
   Runs a quantum noise budget (QNB) loop to optimize $T_\mathrm{eff}\$ (or related parameters like input coupler ($T_{i}$), detuning, etc.) for a chosen interferometer configuration. Objective functions include minimizing broadband quantum noise across a specified frequency range or maximizing BNS inspiral range.
 
